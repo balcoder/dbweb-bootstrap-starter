@@ -1,0 +1,42 @@
+.contact {
+
+  address {
+    text-align: left;
+  }
+
+  @include media-breakpoint-down(sm) {
+    h2 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    address {
+      text-align: center;
+    }
+  }
+
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+   & .map-responsive {
+      position: relative;
+      padding-bottom: 75%; // This is the aspect ratio
+      height: 0;
+      overflow: hidden;
+
+      @media only screen and (max-width: 768px) {
+        margin-top: 2rem;
+      }
+
+     & iframe {
+       position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .5);
+     }
+   }
+
+   & address {
+     line-height: 1.8rem;
+   }
+}

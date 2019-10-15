@@ -1,0 +1,23 @@
+// Import custom variables (overrides Bootstrap default variables)
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "./global.scss";
+@import "./navbar.scss";
+@import "./masthead.scss";
+@import "./about.scss";
+@import "./services.scss";
+@import "./careers.scss";
+@import "./feature-box.scss";
+@import "./testimonials.scss";
+@import "./graduate.scss";
+@import "./undergrad.scss";
+@import "./contact.scss";
+@import "./privacy.scss";
+@import "./footer.scss";
+@import "./vacancies.scss";
+
+// Import privacy and cookie pages scss

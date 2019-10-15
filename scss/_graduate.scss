@@ -1,0 +1,40 @@
+#graduate {
+  .grad-heading-container {
+    padding: 5rem 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+    h2 {
+      margin-bottom: 1rem;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 1rem;
+      }
+    }
+    p {
+      margin: 1rem 10%;
+      @include media-breakpoint-down(xs) {
+        margin: 0 0;
+      }
+    }
+  }
+
+  .grad-icon {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+
+    & .why-join {
+      margin-bottom: 2rem;
+    }
+    & .grad-heading {
+      font-size: 1.5rem;
+    }
+
+    & .grad-lists {
+      h3 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

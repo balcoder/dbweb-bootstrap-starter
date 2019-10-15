@@ -1,0 +1,14 @@
+@include media-breakpoint-down(sm) {
+
+ #services {
+   padding: 4rem 0;
+
+   h2 {
+     font-size: 1.8rem;
+   }
+ }
+
+ .icon-heading {
+   font-size: 1.25rem;
+ }
+}

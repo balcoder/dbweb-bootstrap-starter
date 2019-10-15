@@ -1,0 +1,42 @@
+.privacy {
+  margin-top: 5rem;
+  padding: 2rem 4rem;
+
+  h1 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  @media only screen  and(max-width: 576px) {
+    padding: 1rem .5rem;
+  }
+}
+
+#privacyNav {
+  box-shadow: $box-shadow;
+  background-color: $color-primary-dark;
+  transition: background-color 0.2s ease;
+  .navbar-brand {
+     font-family: $font-family-sans-serif;
+     font-weight: $font-weight-bold;
+     //color: $primary;
+   }
+   .navbar-nav {
+       .nav-item {
+         .nav-link {
+           color: $white;
+           font-family: $font-family-sans-serif;
+           font-weight: $font-weight-bold;
+           font-size: 0.9rem;
+           padding: 0.75rem 1rem;
+           &:hover,
+           &:active {
+             color: $color-primary-light;
+           }
+           &.active {
+             color: $color-primary-light !important;
+           }
+         }
+       }
+     }
+}

@@ -1,0 +1,44 @@
+
+// Color overrides
+
+// Set a custom color
+$orange: #f4623a !default;
+$orange-light: #e47d61;
+$brown: #5c4d42 !default;
+$primary-dark: #292b2c;
+
+// Color palette
+$color-primary: #3e4e88;
+$color-primary-dark: #1a2c5b;
+$color-primary-light: #7971ea;
+$color-primary-lighter: #b8dff0;
+
+$color-secondary: #b8dff0;
+
+$color-white: #fff;
+$color-black: #000;
+
+
+// Set primary color to purple
+/* change the primary theme color, and add a new theme color */
+$theme-colors: (
+  primary: $color-primary,
+  primary-light: $color-primary-light,
+  primary-lighter: $color-primary-lighter,
+
+purple: purple, // $purple is defined in _variables.scss
+);
+/* -------end customization-------- */
+
+
+// Font overrides
+$font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+
+$font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+
+$font-family-base: $font-family-serif !default;
+
+$headings-font-family: $font-family-sans-serif !default;
+
+// Custom variables
+$navbar-height: 72px;

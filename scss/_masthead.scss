@@ -1,0 +1,59 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - #{$navbar-height});
+  background: linear-gradient(to bottom, #{fade-out($color-primary-dark, .2)} 0%,#{fade-out($color-primary-dark, .2)} 100%), url('../img/portfolio/fcos-paper-work-small.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .facebook-logo-img {
+    width: 80%;
+    height: auto;
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    h1 {
+      font-size: 2.5rem
+    }
+    h2 {
+      font-size: 1.75rem;
+    }
+
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+    p {
+      font-size: 1.15rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+
+  }
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}

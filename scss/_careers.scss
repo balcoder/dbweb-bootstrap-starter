@@ -1,0 +1,86 @@
+.careers{
+
+  margin-bottom: 2rem;
+  &__header {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 15rem;
+    overflow: hidden;
+
+    @include media-breakpoint-down(sm) {
+      height: 10rem;
+    }
+  }
+
+  &__header--heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 8vw;
+    z-index: 1100;
+
+      & .eyebrow {
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, .7);
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1.75rem;
+        }
+
+      }
+
+      & .title {
+        font-size: 3rem;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 2.1rem;
+        }
+
+      }
+    }
+
+    &__intro blockquote {
+      padding: 4rem 5rem 2rem 5rem;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+        padding: 2rem 1rem;
+
+      }
+    }
+
+    & .blockquote {
+      font-size: 1rem;
+      margin: 1rem 10%;
+
+      @include media-breakpoint-down(sm) {
+        margin: 0 0;
+      }
+
+    }
+    &__logo--cpa {
+      width: 295px;
+      height: auto;
+    }
+
+    &__logo {
+      @include media-breakpoint-down(xs) {
+        width: 200px;
+        height: auto;
+      }
+    }
+
+}
+.btn-apply {
+  display: inline-block;
+}
+.career-img {
+  width: 100%;
+}
