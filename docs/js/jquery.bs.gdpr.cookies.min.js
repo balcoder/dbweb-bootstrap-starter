@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Fcos v1.0.1 (https://fcos.ie)
- * Copyright 2013-2019 dbwebworks.ie
+ * DbWebWorks Bootstrap Starter - dbwebworks v1.0.1 (https://dbwebworks.ie)
+ * Copyright 2013-2020 dbwebworks.ie
  * Licensed under MIT
  */
 

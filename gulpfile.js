@@ -19,7 +19,7 @@ const pkg = require('./package.json');
 
 // Set the banner content
 const banner = ['/*!\n',
-  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+  ' * DbWebWorks Bootstrap Starter - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
   ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
   ' * Licensed under <%= pkg.license %>\n',
   ' */\n',
@@ -124,7 +124,7 @@ function minifyImg() {
 // Watch files
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
-  gulp.watch("./docs/js/**/*", js);
+  gulp.watch(['./docs/js/**/*.js', '!./docs/js/**/*.min.js'], js);
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
